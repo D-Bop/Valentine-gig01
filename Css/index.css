@@ -1,0 +1,74 @@
+body {
+    /* background-color: #592556; */
+    background-color: #f2cab3;
+}
+header {
+    /* background-color: #bf8888; */
+    background-color: #592556;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+header > h1 {
+    /* color: #592556; */
+    color: #bf8888;
+    /* color: #d97791; */
+    text-align: center;
+    font-family: 'Care Dairy', sans-serif;
+    font-size: 1.5em;
+}
+
+.middle {
+    background-color: #bf8888;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+
+.content {
+    padding: 1em;
+}
+.content > h2 {
+    color: #592556;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: 'Care Dairy', sans-serif;
+    font-size: 1.5em; 
+    padding-top: 1em;
+    letter-spacing: 5px;
+}
+
+.content > p {
+    background-color: #f2cab3;
+    border-radius: 10px;
+    padding: 1em;
+    /* color: #644073; */
+    color:  #bf8888;
+    font-family:  'Care Dairy', sans-serif;
+}
+
+footer {
+    background-color:#f2cab3;
+    margin-top: 1em;
+    color: #644073;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: 'Care Dairy', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        width: 50%;
+        margin: auto;
+    }
+    .middle {
+        width: 50%;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+    footer {
+        width: 50%;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+}
